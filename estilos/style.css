@@ -1,31 +1,46 @@
 body{
-    text-align: center;
     background-color: rgb(227, 227, 227);
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
-}
-
-.container{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-}
-
-#blocos{
-    padding: 5px;
-    margin: 5px;
-    border-radius: 5px;
-    background-color: rgb(216, 216, 216);
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1{
     font-size: 20pt;
     color: rgb(207, 207, 0);
+    text-align: center;
 }
 
 h2{
-    font-size: 15px;
+    font-size: 20px;
     color: rgb(207, 207, 0);
+    
+}
+
+input#servicos{
+    margin-bottom: 10px;
+}
+
+input#data{
+    border-radius: 10px;
+    border: 1px;
+    margin-left: 5px;
+}
+
+#lblData{
+    margin-left: 5px;
+}
+
+fieldset.servicos{
+    padding: 20px;
+    margin: 30px;
+}
+
+fieldset.datas{
+    padding: 20px;
+    margin: 30px;
+    display: flex;
+    
 }
