@@ -6,58 +6,77 @@
     <link rel="shortcut icon" href="imagens/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <title>Certificado Otto Dedetizadora</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js" integrity="sha512-MpDFIChbcXl2QgipQrt1VcPHMldRILetapBl5MPCA9Y8r7qvlwx1/Mc9hNTzY+kS5kX6PdoDq41ws1HiVNLdZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <div id="content">
+        <div>
+            <h1>CERTIFICADO DE GARANTIA <br>OTTO DEDETIZADORA</h1>
+        </div>
+            <fieldset class="datas">
+                <legend>DATAS</legend>
+                <div>
+                    <label for="execucao" id="lblData">Execução: </label>
+                    <input type="date" name="execucao" id="data"> 
+                </div>
+                
+                <div>
+                    <label for="validade" id="lblData">Validade: </label>
+                    <input type="date" name="validade" id="data">   
+                </div>
+            </fieldset>
+
+            <fieldset class="servicos">
+                <legend>SERVIÇOS OFERECIDOS</legend>
+                <div>
+                    <label for="dedetizacao">Dedetização</label>
+                    <input type="checkbox" name="dedetizacao" id="servicos">
+                </div>
+                <div>
+                    <label for="desratizacao">Desratização</label>
+                    <input type="checkbox" name="desratizacao" id="servicos">
+                </div>
+                <div>
+                    <label for="descupinizacao">Descupinização</label>
+                    <input type="checkbox" name="descupinizacao" id="servicos">
+                </div>
+                <div>
+                    <label for="limpeza caixa">Limpeza de Caixa D’Água</label>
+                    <input type="checkbox" name="limpeza caixa" id="servicos">
+                </div>   
+            </fieldset> 
+
+            <fieldset class="servicos">
+                <legend>CONTRATADO</legend>
+                <div>
+                    <p>Rua Sete de Abril, 261 - República, São Paulo</p>
+                    <p>Otto Dedetizadora LTDA – 52.664.226/0001-90</p>
+                    <p>11 96538-7795</p> 
+                </div> 
+                
+            </fieldset> 
+
+            <fieldset class="servicos">
+                <legend>CONTRATANTE</legend>
+                <div>
+                    <p>EMPRESA: Nome da Empresa</p>
+                    <p>CNPJ: 00000000000</p>
+                    <P>ENDEREÇO: Endereço do Cliente</P>
+                </div>     
+            </fieldset> 
+
+            <fieldset class="assinatura">
+                <legend>RESPONSÁVEL TÉCNICO</legend>
+                <div>
+                    <p>Assinatura: </p>
+                </div> 
+            </fieldset>  
+    </div>    
     <div>
-        <h1>CERTIFICADO DE GARANTIA <br>OTTO DEDETIZADORA</h1>
+        <button id="generatePdf">Gerar PDF</button>
     </div>
-   
-        <fieldset class="datas">
-            <legend>DATAS</legend>
-            <div>
-                <label for="execucao" id="lblData">Execução: </label>
-                <input type="date" name="execucao" id="data"> 
-            </div>
-            
-            <div>
-                <label for="validade" id="lblData">Validade: </label>
-                <input type="date" name="validade" id="data">   
-            </div>
-        </fieldset>
-
-        <fieldset class="servicos">
-            <legend>SERVIÇOS OFERECIDOS</legend>
-            <div>
-                <label for="dedetizacao">Dedetização</label>
-                <input type="checkbox" name="dedetizacao" id="servicos">
-            </div>
-            <div>
-                <label for="desratizacao">Desratização</label>
-                <input type="checkbox" name="desratizacao" id="servicos">
-            </div>
-            <div>
-                <label for="descupinizacao">Descupinização</label>
-                <input type="checkbox" name="descupinizacao" id="servicos">
-            </div>
-            <div>
-                <label for="limpeza caixa">Limpeza de Caixa D’Água</label>
-                <input type="checkbox" name="limpeza caixa" id="servicos">
-            </div>   
-        </fieldset>     
-    </div>
-  
-    <h2>DADOS DA EMPRESA</h2>
-    <p>Rua Sete de Abril, 261 - República, São Paulo</p>
-    <p>Otto Dedetizadora LTDA – 52.664.226/0001-90</p>
-    <p>11 96538-7795</p>
-
-    <h2>DADOS DO CLIENTE</h2>
-    <p>EMPRESA: Nome da Empresa</p>
-    <p>CNPJ: 00000000000</p>
-    <P>ENDEREÇO: Endereço do Cliente</P>
-
-    <h2>ASSINATURAS</h2>
-    <P>Nome do meliante</P>
  
 </body>
 </html>
