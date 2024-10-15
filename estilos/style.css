@@ -2,34 +2,34 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h1{
-    font-size: 18pt;
-    color: rgb(207, 207, 0);
+    font-size: 25pt;
+    color: rgb(156, 156, 0);
     text-align: center;
     padding: 0px 20px 0px 20px;
-}
-
-h2{
-    font-size: 20px;
-    color: rgb(207, 207, 0);
-    
-}
+} 
 
 legend{
-    color: rgb(207, 207, 0);
+    color: rgb(156, 156, 0);
     font-weight: bolder;
+    font-size: 20px;
 }
 
 #cabecaLogo{
     margin-top: 15px;
     border-radius: 200px;
     width: 60px;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 255, 0);
 }
 
 input#servicos{
@@ -42,24 +42,64 @@ input#data{
     margin-left: 5px;
 }
 
+p{
+    font-size: 18px;
+}
+
+label{
+    font-size: 18px;
+}
+
 #lblData{
     margin-left: 5px;
 }
 
+fieldset{
+    border-color: rgba(0, 0, 0, 0);
+    border-radius: 4px;
+}
+
 fieldset.servicos{
-    padding: 10px 20px 10px 20px;
+    padding: 10px 0px 10px 20px;
     margin: 10px 30px 10px 30px;
 }
 
 fieldset.datas{
-    padding: 10px 20px 10px 20px;
+    padding: 10px 0px 10px 20px;
     margin: 10px 30px 10px 30px;
     display: flex;  
 }
 
 fieldset.assinatura{
-    padding: 0px 20px 0px 20px;
+    padding: 0px 0px 0px 20px;
     margin: 10px 30px 10px 30px;
+}
+
+#endereco{
+    margin-top: 10px;
+}
+
+input{
+    font-size: 18px;
+}
+
+#inputEndereco{
+    margin-left: 13px;
+    width: 600px;
+}
+
+#enderecoContratado{
+    margin-top: -15px;
+    margin-bottom: -10px;
+}
+
+#inputContratante{
+    width: 350px;
+}
+
+#responsavelTecnico{
+    margin: 10px 0px 10px 0px;
+    width: 300px;
 }
 
 #generatePdf{

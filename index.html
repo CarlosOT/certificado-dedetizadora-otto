@@ -29,7 +29,7 @@
             </fieldset>
 
             <fieldset class="servicos">
-                <legend>SERVIÇOS OFERECIDOS</legend>
+                <legend>SERVIÇOS PRESTADOS</legend>
                 <div>
                     <label for="dedetizacao">Dedetização</label>
                     <input type="checkbox" name="dedetizacao" id="servicos">
@@ -50,33 +50,39 @@
 
             <fieldset class="servicos">
                 <legend>CONTRATADO</legend>
-                <div>
-                    <p>Rua Sete de Abril, 261 - República, São Paulo</p>
-                    <p>Otto Dedetizadora LTDA – 52.664.226/0001-90</p>
-                    <p>11 96538-7795</p> 
+                <div id="enderecoContratado">
+                    <p>Otto Dedetizadora LTDA / CNPJ: 52.664.226/0001-90</p>
+                    <p>Rua Marconi, 107 - 5º andar sala 507 - República, São Paulo - SP, 01046-001</p>
+                    <p>contato@ottodedetizadora.com.br / 11 96538-7795</p> 
                 </div> 
-                
             </fieldset> 
 
             <fieldset class="servicos">
                 <legend>CONTRATANTE</legend>
                 <div>
-                    <p>EMPRESA: Nome da Empresa</p>
-                    <p>CNPJ: 00000000000</p>
-                    <P>ENDEREÇO: Endereço do Cliente</P>
+                    <div>
+                        <label for="contratante">Contratante: </label>
+                        <input type="text" name="contratante" id="inputContratante" placeholder="Nome da Empresa Contratante">
+                        <label for="cnpj">CNPJ: </label>
+                        <input type="text" name="cnpj" placeholder="00.000.000/0000-00">
+                    </div>
+                    <div id="endereco">
+                        <label for="endereco">Endereço: </label>
+                        <input type="text" name="endereco" id="inputEndereco" placeholder="Rua, nº, complemento - Bairro, Cidade - Estado, CEP">
+                    </div>
+                    
                 </div>     
             </fieldset> 
 
             <fieldset class="assinatura">
                 <legend>RESPONSÁVEL TÉCNICO</legend>
                 <div>
-                    <p>Assinatura: </p>
+                    <input type="text" name="responsavelTecnico" id="responsavelTecnico" placeholder="Nome do Responsável Técnico">
                 </div> 
             </fieldset>  
     </div>    
     <div>
         <button id="generatePdf">Gerar PDF</button>
     </div>
- 
 </body>
 </html>
