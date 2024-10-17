@@ -13,21 +13,22 @@
 <body>
     <div id="content">
         <div>
+            <!--CAMPO TITULO PRINCIPAL-->
             <h1>CERTIFICADO DE GARANTIA <br>OTTO DEDETIZADORA</h1>
         </div>
+             <!--CAMPO DE DATAS-->
             <fieldset class="datas">
                 <legend>DATAS</legend>
                 <div>
                     <label for="execucao" id="lblData">Execução: </label>
                     <input type="date" name="execucao" id="data"> 
                 </div>
-                
                 <div>
                     <label for="validade" id="lblData">Validade: </label>
                     <input type="date" name="validade" id="data">   
                 </div>
             </fieldset>
-
+            <!--CAMPO SERVIÇOS PRESTADOS-->
             <fieldset class="servicos">
                 <legend>SERVIÇOS PRESTADOS</legend>
                 <div>
@@ -41,7 +42,7 @@
                     <input type="checkbox" name="limpeza caixa" id="servicos">
                 </div>   
             </fieldset> 
-
+            <!--ENDEREÇOS GERAL-->
             <fieldset class="servicos">
                 <legend>CONTRATADO</legend>
                 <div id="enderecoContratado">
@@ -50,29 +51,24 @@
                     <p>contato@ottodedetizadora.com.br (11 96538-7795)</p>
                 </div> 
             </fieldset> 
-
             <fieldset class="servicos">
                 <legend>CONTRATANTE</legend>
                 <div>
-                    <div>
-                        <label for="contratante">Contratante: </label>
-                        <input type="text" name="contratante" id="inputContratante" placeholder="> NOME EMPRESA">
-                        <label for="cnpj">CNPJ: </label>
-                        <input type="text" name="cnpj" placeholder="> DADOS CNPJ">
-                    </div>
-                    <div id="endereco">
-                        <label for="endereco">Endereço: </label>
-                        <input type="text" name="endereco" id="inputEndereco" placeholder="> PREENCHER ENDEREÇO">
-                    </div>
-                    
-                </div>     
+                    <label for="contratante">Contratante: </label>
+                    <input type="text" name="contratante" id="inputContratante" placeholder="> NOME EMPRESA">
+                    <label for="cnpj">CNPJ: </label>
+                    <input type="text" name="cnpj" placeholder="> DADOS CNPJ">
+                </div>
+                <div id="endereco">
+                    <label for="endereco">Endereço: </label>
+                    <input type="text" name="endereco" id="inputEndereco" placeholder="> PREENCHER ENDEREÇO">
+                </div>   
             </fieldset> 
+            <!--RESPONSÁVEL TECNICO-->
             <fieldset class="assinatura">
-                <div>
-                    <legend>RESPONSÁVEL TÉCNICO 
-                        <input type="text" name="responsavelTecnico" id="responsavelTecnico" placeholder="> PREENCHER">
-                    </legend>
-                </div> 
+                <legend>RESPONSÁVEL TÉCNICO 
+                    <input type="text" name="responsavelTecnico" id="responsavelTecnico" placeholder="> PREENCHER">
+                </legend>
             </fieldset>  
     </div>    
     <button id="generatePdf">Gerar PDF</button>
