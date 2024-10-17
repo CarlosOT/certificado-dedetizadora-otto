@@ -9,7 +9,7 @@ btnGenerate.addEventListener('click', () =>{
         margin:[20,20,20,20],
         filename: "arquivo.pdf",
         html2canvas: {scale: 3},    
-        jsPDF:{format: "a4", orientation: "landscape"},
+        jsPDF:{format: "a4", orientation: "portrait"},
     }
     
     //gerar e baixar o pdf
