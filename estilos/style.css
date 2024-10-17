@@ -52,6 +52,7 @@ label{
 
 #lblData{
     margin-left: 5px;
+    text-align: center;
 }
 
 fieldset{
@@ -84,8 +85,17 @@ input{
 }
 
 #inputEndereco{
-    margin-left: 13px;
     width: 600px;
+}
+
+#lblCnpj{
+    margin-right: 30px;
+}
+
+#inputCnpj{
+    margin-left: 13px;
+    width: 300px;
+    margin-top: 10px;
 }
 
 #enderecoContratado{
