@@ -12,21 +12,19 @@
 </head>
 <body>
     <div id="content">
-        <div>
             <!--CAMPO TITULO PRINCIPAL-->
-            <h1>CERTIFICADO DE GARANTIA <br>OTTO DEDETIZADORA</h1>
-        </div>
+            <fieldset class="servicos">
+                <div id="tituloLogo">
+                    <h1>CERTIFICADO DE GARANTIA <br>OTTO DEDETIZADORA</h1>
+                    <img src="imagens/logo200.png" alt="logo otto" width="100">
+                </div>
+            </fieldset>
              <!--CAMPO DE DATAS-->
-            <fieldset class="datas">
-                <legend>DATAS</legend>
-                <div>
-                    <label for="execucao" id="lblData">Execução</label>
+            <fieldset class="datas"> 
+                    <label for="execucao" id="lblData">Data Execução: </label>
                     <input type="date" name="execucao" id="data"> 
-                </div>
-                <div>
-                    <label for="validade" id="lblData">Validade</label>
+                    <label for="validade" id="lblData">Validade do Certificado: </label>
                     <input type="date" name="validade" id="data">   
-                </div>
             </fieldset>
             <!--CAMPO SERVIÇOS PRESTADOS-->
             <fieldset class="servicos">
@@ -35,9 +33,7 @@
                     <label for="dedetizacao">&bull; Dedetização</label>
                     <input type="checkbox" name="dedetizacao" id="servicos">
                     <label for="desratizacao">&bull; Desratização</label>
-                    <input type="checkbox" name="desratizacao" id="servicos">
-                </div>
-                <div>    
+                    <input type="checkbox" name="desratizacao" id="servicos">  
                     <label for="descupinizacao">&bull; Descupinização</label>
                     <input type="checkbox" name="descupinizacao" id="servicos">
                     <label for="limpeza caixa">&bull; Limpeza Caixa D’Água</label>
@@ -64,7 +60,7 @@
                     <input type="text" name="cnpj" id="inputCnpj" placeholder="> DADOS CNPJ">
                 </div>
                 <div id="endereco">
-                    <label for="endereco">Endereço: </label><br>
+                    <label for="endereco">Endereço: </label>
                     <input type="text" name="endereco" id="inputEndereco" placeholder="> PREENCHER ENDEREÇO">
                 </div>   
             </fieldset> 

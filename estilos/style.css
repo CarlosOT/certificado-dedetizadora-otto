@@ -2,44 +2,31 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 h1{
-    font-size: 23pt;
+    font-size: 18pt;
     color: rgb(156, 156, 0);
-    text-align: center;
-    padding: 0px 20px 0px 20px;
 } 
+
+img{
+    width: 80px;
+}
+
+#tituloLogo{
+    display: flex;
+}
 
 legend{
     color: rgb(156, 156, 0);
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #cabecaLogo{
     margin-top: 15px;
     border-radius: 200px;
     width: 60px;
-}
-
-input{
-    background-color: rgba(0, 0, 0, 0);
-    border-color: rgba(0, 0, 255, 0);
-}
-
-input#servicos{
-    margin-bottom: 10px;
-}
-
-input#data{
-    border-radius: 10px;
-    border: 1px;
-    margin-left: 5px;
 }
 
 p{
@@ -62,18 +49,33 @@ fieldset{
 
 fieldset.servicos{
     padding: 10px 0px 10px 20px;
-    margin: 10px 30px 10px 30px;
+    margin: 15px 30px 15px 30px;
 }
 
 fieldset.datas{
     padding: 10px 0px 10px 20px;
-    margin: 10px 30px 10px 30px;
+    margin: 15px 30px 15px 30px;
     display: flex;  
 }
 
 fieldset.assinatura{
     padding: 0px 0px 0px 20px;
     margin: -10px 30px 10px 30px;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 255, 0);
+}
+
+input#servicos{
+    margin-bottom: 10px;
+}
+
+input#data{
+    border-radius: 10px;
+    border: 1px;
+    margin-left: 5px;
 }
 
 #endereco{
@@ -85,7 +87,7 @@ input{
 }
 
 #inputEndereco{
-    width: 600px;
+    width: 550px;
 }
 
 #lblCnpj{
@@ -108,7 +110,6 @@ input{
 }
 
 #responsavelTecnico{
-    margin: 10px 0px 10px 0px;
     width: 300px;
 }
 
