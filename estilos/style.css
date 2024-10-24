@@ -10,7 +10,7 @@ body{
     margin-left: 20%;
 
 }img{
-    width: 120px;
+    width: 80px;
 
 }legend{
     color: #bba130;
@@ -96,11 +96,10 @@ body{
 }#inputComposicao{
     width: 400px;
 
-}#logoRodape{
+}#logo{
     width: 100px;
     margin: auto;
-    margin-top: -170px;
-    margin-left: 550px;
+    margin-bottom: -20px;
 
 }
 
