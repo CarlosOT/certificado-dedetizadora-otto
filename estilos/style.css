@@ -10,7 +10,7 @@ body{
     margin-left: 20%;
 
 }img{
-    width: 80px;
+    width: 120px;
 
 }legend{
     color: #bba130;
@@ -36,7 +36,9 @@ body{
 
 /*SELETORES POR ID*/
 #tituloLogo{
-    display: flex;
+    width: 600px;
+    text-align: center;
+    margin-bottom: -20px;
 
 }#cabecaLogo{
     margin-top: 10px;
@@ -94,6 +96,12 @@ body{
 }#inputComposicao{
     width: 400px;
 
+}#logoRodape{
+    width: 100px;
+    margin: auto;
+    margin-top: -170px;
+    margin-left: 500px;
+
 }
 
 /*SELETORES POR CLASSE*/
@@ -108,7 +116,7 @@ fieldset.servicos{
 
 }fieldset.assinatura{
     padding: 0px 0px 0px 20px;
-    margin: -10px 30px 10px 30px;
+    margin: -10px 30px 0px 30px;
 
 }
 
