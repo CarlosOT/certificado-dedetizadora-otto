@@ -3,84 +3,112 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: 'Times New Roman', Times, serif;
+
 }h1{
-    font-size: 18pt;
-    color: rgb(156, 156, 0);
+    font-size: 16pt;
+    color: #bba130;
     margin-left: 20%;
+
 }img{
     width: 80px;
+
 }legend{
-    color: rgb(156, 156, 0);
+    color: #bba130;
     font-weight: bolder;
     font-size: 18px;
+
 }p{
     font-size: 18px;
+
 }label{
     font-size: 18px;
+
 }fieldset{
     border-color: rgba(0, 0, 0, 0);
     border-radius: 4px;
+
 }input{
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 255, 0);
     font-size: 18px;
+
 }
 
 /*SELETORES POR ID*/
 #tituloLogo{
     display: flex;
+
 }#cabecaLogo{
-    margin-top: 15px;
+    margin-top: 10px;
     border-radius: 200px;
     width: 60px;
+
 }#lblData{
     margin-left: 5px;
     text-align: center;
+
 }input#servicos{
     margin-bottom: 10px;
+
 }input#data{
     border-radius: 10px;
     border: 1px;
     margin-left: 5px;
+
 }#endereco{
     margin-top: 10px;
+
 }#inputEndereco{
     width: 550px;
+
 }#lblCnpj{
     margin-right: 30px;
+
 }#inputCnpj{
     margin-left: 13px;
     width: 300px;
     margin-top: 10px;
+
 }#enderecoContratado{
     margin-top: -15px;
     margin-bottom: -10px;
+
 }#inputContratante{
     width: 300px;
+
 }#generatePdf{
     margin-left: 50%;
     margin-right: 50%;
     border-radius: 10px;
     padding: 0px 40px 0px 40px;
     text-align: center;
+
 }#optionAssinatura{
     font-size: 18px;
+
 }#selectAssinatura{
     font-size: 18px;
     border-color: white;
     background-color: white;
+
+}#inputComposicao{
+    width: 400px;
+
 }
 
 /*SELETORES POR CLASSE*/
 fieldset.servicos{
     padding: 10px 0px 10px 20px;
-    margin: 15px 30px 15px 30px;
+    margin: -10px 30px 15px 30px;
+
 }fieldset.datas{
-    padding: 10px 0px 10px 20px;
-    margin: 15px 30px 15px 30px;
+    padding: 5px 0px 10px 20px;
+    margin: 10px 30px 15px 30px;
     display: flex;  
+
 }fieldset.assinatura{
     padding: 0px 0px 0px 20px;
     margin: -10px 30px 10px 30px;
+
 }
 
