@@ -5,7 +5,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 
 }h1{
-    font-size: 16pt;
+    font-size: 18pt;
     color: #bba130;
     margin-left: 20%;
 
@@ -99,6 +99,7 @@ body{
 }#logo{
     width: 100px;
     margin: auto;
+    padding-right: 20px;
     margin-bottom: -20px;
 
 }
